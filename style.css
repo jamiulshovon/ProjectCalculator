@@ -1,0 +1,40 @@
+body{
+    background-color: darkgray;
+}
+.outerpart{
+    width: 400px;
+    height: 600px;
+    box-shadow: 10px 10px 10px black;
+    transform: translate(125%);
+    margin-top: 50px;
+    box-shadow: 5px 10px 20px black;
+    padding: 8px;
+    border-radius: 18px;
+}
+#display{
+    text-align: right;
+    transform: translateX(20px);
+    height: 60px;
+    width: 350px;
+    font-size: 40px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    outline: none;
+    border-radius: 8px;
+}
+#numbutton{
+    width: 50px;
+    height: 50px;
+    font-size: 42px;
+    border-radius: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+   
+}
+
+#numbutton:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 2px red;
+}
