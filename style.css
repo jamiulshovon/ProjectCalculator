@@ -1,9 +1,11 @@
 body{
     background-color: #ADEFD1FF;
+  height: 100vh;
+   
 }
 .outerpart{
     width: 400px;
-    height: 600px;
+    height: 645px;
     box-shadow: 10px 10px 10px black;
     transform: translate(125%);
     margin-top: 50px;
@@ -33,10 +35,23 @@ body{
    border-radius: 15px;
    background-color:#000000FF;
    color: floralwhite;
-
+   border: none; 
+}
+#point{
+    width: 55px;
+    margin-left: 6%;
+    margin-top: -6%;
+    margin-right: 6%;
+    
+   font-size: 35px;
+   border-radius: 15px;
+   background-color:#000000FF;
+   color: floralwhite;
+   border: none;
    
 }
-#numbutton:hover{
+
+#numbutton:hover,#point:hover{
     cursor: pointer;
    
 }
